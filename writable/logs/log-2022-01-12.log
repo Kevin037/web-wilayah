@@ -1,0 +1,689 @@
+CRITICAL - 2022-01-12 11:18:07 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\web-wilayah\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\web-wilayah\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-12 04:35:54 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 04:36:04 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 04:36:12 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:03:02 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:03:04 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:03:06 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:03:56 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:03:57 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:05:23 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(19): view('provinsi')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->provinsi()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:05:52 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(14): view('kabupaten')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->kabupaten()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:06:08 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(14): view('kabupaten')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->kabupaten()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:06:58 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(14): view('kabupaten')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->kabupaten()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:07:00 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(14): view('kabupaten')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->kabupaten()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:07:21 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(14): view('kabupaten')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->kabupaten()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 06:07:22 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Home.php(14): view('kabupaten')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Home->kabupaten()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 07:07:52 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->tambah()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:24:06 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:24:26 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:24:28 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:24:29 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:24:30 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:24:55 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:25:36 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:25:43 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:27:57 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:27:58 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:27:59 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:28:03 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Provinsi->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:30:57 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:33:45 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:38:06 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:39:06 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:41:27 --> Class 'App\Controllers\ProvinsiModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:52:30 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:29 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:30 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:31 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:32 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:32 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:32 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 07:53:33 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:07:20 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:52 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:53 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:53 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:54 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:54 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:54 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:54 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:09:54 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:29:27 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 08:35:11 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\provinsi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Provinsi.php(17): view('provinsi', Array)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-12 08:36:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\provinsi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Provinsi.php(17): view('provinsi', Array)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-12 08:36:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\provinsi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Provinsi.php(17): view('provinsi', Array)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->index()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-12 08:40:57 --> There is no data to insert.
+#0 C:\xampp\htdocs\web-wilayah\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\web-wilayah\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\web-wilayah\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\web-wilayah\app\Controllers\Provinsi.php(24): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->tambah()
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 08:43:43 --> Call to undefined function App\Controllers\vardump()
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Provinsi->tambah()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provinsi))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 09:03:37 --> Class 'App\Controllers\KabupatenModel' not found
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(802): App\Controllers\Kabupaten->__construct()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 09:06:06 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\kabupaten.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(18): view('kabupaten', Array)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->index()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-12 09:15:05 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->index()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-01-12 09:19:26 --> Column 'nama' cannot be null
+CRITICAL - 2022-01-12 09:19:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\kabupaten.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(34): view('kabupaten')
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->tambah()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-12 09:22:03 --> Column 'nama' cannot be null
+CRITICAL - 2022-01-12 09:22:03 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\kabupaten.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(34): view('kabupaten')
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->tambah()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-12 09:22:05 --> Column 'nama' cannot be null
+CRITICAL - 2022-01-12 09:22:05 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\kabupaten.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(34): view('kabupaten')
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->tambah()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-12 09:22:59 --> Column 'nama' cannot be null
+ERROR - 2022-01-12 09:23:48 --> Column 'nama' cannot be null
+CRITICAL - 2022-01-12 10:00:39 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\web-wilayah\app\Models\KabupatenModel.php on line 21
+#0 C:\xampp\htdocs\web-wilayah\app\Models\KabupatenModel.php(21): CodeIgniter\Database\BaseBuilder->like('nama_provinsi', NULL)
+#1 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(39): App\Models\KabupatenModel->cari(NULL)
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->cari()
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-12 10:02:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\web-wilayah\app\Models\KabupatenModel.php on line 21
+#0 C:\xampp\htdocs\web-wilayah\app\Models\KabupatenModel.php(21): CodeIgniter\Database\BaseBuilder->like('nama', NULL)
+#1 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(39): App\Models\KabupatenModel->cari(NULL)
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->cari()
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-12 10:07:02 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->cari()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 10:26:44 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 10:26:44 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 10:26:52 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 10:27:54 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-12 10:27:55 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\web-wilayah\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-01-12 10:28:43 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-01-12 10:28:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(50): App\Models\KabupatenModel->filter('2')
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->filter('2')
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-12 10:31:28 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-01-12 10:31:28 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(50): App\Models\KabupatenModel->filter('1')
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->filter('1')
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-12 10:31:47 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-01-12 10:31:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\web-wilayah\app\Views\kabupaten.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\web-wilayah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-wilayah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web-wilayah\system\Common.php(1089): CodeIgniter\View\View->render('kabupaten', Array, true)
+#4 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(56): view('kabupaten', Array)
+#5 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->filter('2')
+#6 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#7 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-12 10:32:14 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-01-12 10:32:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(50): App\Models\KabupatenModel->filter('2')
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->filter('2')
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-12 10:32:18 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-01-12 10:32:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(50): App\Models\KabupatenModel->filter('1')
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->filter('1')
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 10:53:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::select_sum()
+#0 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(60): App\Models\KabupatenModel->provinsi_rekap()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->rekap()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 10:54:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::select_sum()
+#0 C:\xampp\htdocs\web-wilayah\app\Controllers\Kabupaten.php(60): App\Models\KabupatenModel->provinsi_rekap()
+#1 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(825): App\Controllers\Kabupaten->rekap()
+#2 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#3 C:\xampp\htdocs\web-wilayah\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-wilayah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-wilayah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
